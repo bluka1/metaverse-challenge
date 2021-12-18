@@ -31,9 +31,9 @@ function SendMessage({ endOfMessagesRef }) {
 	};
 
 	return (
-		<form className="flex fixed bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-2xl shadow-xl rounded-full border-4 border-blue-400">
+		<form className="flex fixed bottom-10 bg-gradient-to-r from-cyan-500 to-blue-700 shadow-sm w-11/12 px-6 py-4 max-w-2xl shadow-xl rounded-full border-4 border-blue-400">
 			<input
-				className="flex-grow outline-none bg-transparent text-white rounded-full placeholder-gray-500 pr-5"
+				className="flex-grow outline-none bg-transparent text-white rounded-full placeholder-gray-200 pr-5"
 				type="text"
 				value={message}
 				onChange={(e) => setMessage(e.target.value)}
@@ -42,7 +42,7 @@ function SendMessage({ endOfMessagesRef }) {
 			<button
 				type="submit"
 				onClick={sendMessage}
-				className="font-bold text-pink-500"
+				className="font-bold text-white"
 			>
 				Send
 			</button>

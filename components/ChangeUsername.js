@@ -22,7 +22,7 @@ function ChangeUsername() {
 			<button
 				disabled={isUserUpdating}
 				onClick={setUsername}
-				className="hover:text-pink-700"
+				className="bg-blue-700 hover:bg-blue-600 text-white font-sans font-bold py-2 px-4 border-b-4 border-blue-900 hover:border-white rounded"
 			>
 				Change your username
 			</button>

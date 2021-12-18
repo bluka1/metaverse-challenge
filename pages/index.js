@@ -11,7 +11,7 @@ export default function Home() {
 		return <Login />;
 	}
 	return (
-		<div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-fuchsia-900">
+		<div className="h-screen overflow-y-scroll bg-gradient-to-r from-gray-300 to-zinc-700">
 			<Head>
 				<title>Metaverse Challenge</title>
 			</Head>
